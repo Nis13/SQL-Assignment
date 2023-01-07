@@ -38,10 +38,7 @@ VALUES
 	('Pratima Dawadi', 'Raniban', 'Kathmandu'),
 	('Pratigya Poudel', 'Baneshwor', 'Kathmandu');
 
-SELECT * FROM Tbl_Employee;
-SELECT * FROM Tbl_Works;
-SELECT * FROM Tbl_Company;
-SELECT * FROM Tbl_Manages;
+
 INSERT INTO Tbl_Works(employee_name, company_name, salary)
 VALUES
 	('Priti Rana', 'Bajra', 65000),
