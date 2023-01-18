@@ -29,3 +29,5 @@ WHERE Tbl_Works.employee_name = ANY (SELECT DISTINCT manager_name FROM tbl_manag
 
 /*(e) Delete all tuples in the works relation for employees of Small Bank
 Corporation. */
+DELETE FROM Tbl_Works
+WHERE company_name = 'Small Bank Corporation';
